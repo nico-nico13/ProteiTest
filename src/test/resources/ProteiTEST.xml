@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ProteiTEST">
+    <test verbose="2" preserve-order="true" name="ProteiTEST">
+        <classes>
+            <class name="protei.tests.PositiveTests"></class>
+            <class name="protei.tests.NegativeTests"></class>
+        </classes>
+    </test>
+</suite>
